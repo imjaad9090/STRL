@@ -1,0 +1,113 @@
+Google Maps Android 
+AIzaSyCrhR5aibS-8IlAEz8YwxKHLqsB7btrbMs
+
+
+Google maps IOS
+AIzaSyCgg-M_yZFi8b1qh8XXjA-dMrSZa0RWHos
+
+
+Initial App screen 
+https://pastebin.com/LRrHBeVR
+
+distributionUrl=https\://services.gradle.org/distributions/gradle-2.14.1-all.zip
+
+
+in order to tackle issue in android, wrap all contents of onPanDrag() inside 
+"if" statement where it checks if this.state.scrollsw is set to false , if its false 
+then allow pan drag function to work otherwise nat..
+
+
+Google OAuth 2.0 
+client id
+582706137510-l5vf4kioi7vgpnrb2paautrl1v7mju0k.apps.googleusercontent.com
+
+
+secret
+Jrpa0Mgx9ejhHyrKExDiA1v1
+
+
+google places api key
+AIzaSyD_pXSfx5ZObHwSD5R_9LLjTXpXDDfWTTo
+
+
+draw.js source
+https://pastebin.com/S5yY94fK
+
+
+
+
+
+##########misc#########
+LINK = 'https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyD_pXSfx5ZObHwSD5R_9LLjTXpXDDfWTTo&place_id='
+// create a component
+LINK2= 'https://app.morelobby.com/api/map_suggestion'
+
+search(props){
+        axios.post(LINK2,{
+            q:props
+        })
+  .then( (response) =>{
+      console.log(response)
+      
+  })
+  .catch((error) =>{
+    console.log(error);
+  });
+}
+
+
+
+get image link 
+only change table id
+https://matrixmedia.marismatrix.com/mediaserver/GetMedia.ashx?Key=37335719&TableID=5&Type=1&Number=4&Size=5
+
+
+
+search.js link
+https://pastebin.com/ZVqNn9iV
+
+
+
+  https://app.morelobby.com/api/get_listing/2
+
+
+
++++++STATIC MAP IMAGE GENERATOR+++++
+https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+&markers=color:red%7Clabel:C%7C40.718217,-73.998284
+&key=YOUR_API_KEY
+
+https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C38.6530169,-90.3835487&key=AIzaSyCrhR5aibS-8IlAEz8YwxKHLqsB7btrbMs
+
+
+
+### static map image generator MAP with two markers
+
+https://maps.googleapis.com/maps/api/staticmap?zoom=15&maptype=roadmap&markers=color:purple|31.502241,74.355600&markers=color:green|31.507348,74.350259&size=600x300&key=AIzaSyCbdLPYElO7hk4RnxBsSe_fXv0noQ90CRo
+
+parking desc lot desc apecial area
+
+
+
+### Spinkit snippet
+<View style={{alignSelf:'center',top:5,marginHorizontal:10}}>
+ <Spinner  isVisible={this.state.isVisible} size={40} type={'Wave'} color="#d63031"/>
+ </View>
+
+
+ _>>>>> List.js
+ https://pastebin.com/DDHQFHBv
+
+
+
+ navigation.navigate('list',{listdata:params.listingdata})
+
+
+ __>>> search2 link 18 may
+ https://pastebin.com/2Aas8Ji0
+
+
+ -->>filters.js
+ https://pastebin.com/nVqESJfc

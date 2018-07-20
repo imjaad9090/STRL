@@ -1,0 +1,24 @@
+rootProject.name = 'STRL'
+include ':react-native-intl'
+project(':react-native-intl').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-intl/android')
+include ':react-native-spinkit'
+project(':react-native-spinkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spinkit/android')
+include ':react-native-common'
+project(':react-native-common').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-common/android')
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+include ':react-native-streetview'
+project(':react-native-streetview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-streetview/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-google-places'
+project(':react-native-google-places').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-google-places/android')
+include ':react-native-android-keyboard-adjust'
+project(':react-native-android-keyboard-adjust').projectDir = new File(settingsDir, '../node_modules/react-native-android-keyboard-adjust/android')
+
+
+
+include ':app'
+
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')

@@ -1,0 +1,44 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'STRL' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  # Pods for Wick
+  
+  
+  pod "yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+  rn_maps_path = '../node_modules/react-native-maps'
+
+  rn_path = '../node_modules/react-native'
+  pod 'React', path: rn_path, subspecs: [
+    'Core',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'DevSupport',
+    'RCTLinkingIOS',
+    'RCTNetwork',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+  ]
+  pod 'react-native-maps', path: rn_maps_path
+  pod 'react-native-google-maps', path: rn_maps_path  # Remove this line if you don't want to support GoogleMaps on iOS
+  pod 'GoogleMaps'  # Remove this line if you don't want to support GoogleMaps on iOS
+  pod 'Google-Maps-iOS-Utils' # Remove this line if you don't want to support GoogleMaps on iOS
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNCommon', :path => '../node_modules/react-native-common'
+
+  pod 'react-native-spinkit', :path => '../node_modules/react-native-spinkit'
+
+end
+
+
